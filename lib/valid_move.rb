@@ -1,2 +1,2 @@
-def valid_move?(position_taken?)
+def valid_move?(position_taken)
 end
