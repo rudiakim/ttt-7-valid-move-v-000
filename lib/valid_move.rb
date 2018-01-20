@@ -11,7 +11,7 @@ end
 
 def valid_move?(board, index)
 
-  if position_taken?(board, index) == " " && position_taken?[board, index] == ""
+  if position_taken?(board, index) == between?(0,8)
         true
 
   else position_taken?(board, index) == nil
